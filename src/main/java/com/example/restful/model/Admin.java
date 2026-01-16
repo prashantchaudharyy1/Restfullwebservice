@@ -8,9 +8,9 @@ import lombok.Data;
 
 @AllArgsConstructor
 public class Admin {
+	private int id;
 
     private String name;
     private String password;
-
 
 }
